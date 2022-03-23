@@ -1,0 +1,558 @@
+.coprofile{
+    position: absolute;
+    width: 1100px;
+    height: 2500px;
+    left: 240px;
+    top: 75px;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 5px;
+	-webkit-border-radius:10px;
+	border:none;
+	background:#E5E5E5;
+	box-sizing:border-box;
+}
+.coprofile #rectangle{
+    position: absolute;
+    width: 100%;
+    height: 189px;
+    background: rgba(196, 196, 196, 0.6);
+    border-radius: 10px;
+}
+.coprofile .coname{
+    position: absolute;
+    font-family: Poppins;
+    font-weight: bold;
+    margin-top: 113px;
+    margin-left: 550px;
+}
+.coprofile img{
+    position: absolute;
+    margin-top: 48px;
+    margin-right: 134px;
+    width: 250px;
+    height: 250px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 130px;
+	margin-left:100px;
+}
+.coprofile .about{
+    position:absolute;
+	top:125px;
+	text-align:justify;
+	margin-left:400px;
+	margin-top:50px;
+}
+.coprofile ul{
+    position:absolute;
+    list-style: none;
+    margin-left: 585px;
+    margin-top: 300px;
+}
+.coprofile ul li{
+    float: left;
+    padding:10px;
+}
+.coprofile ul li i{
+    font-size: 25px;
+}
+
+.main-box-content-wrapper {
+    position: absolute;
+    top:380px;
+    padding: 2rem 3rem;
+    margin-left: 7%;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 2rem;
+    cursor: default;
+}
+
+.fields-container {
+    margin-top: 1rem;
+    padding-left: 4rem;
+    padding-right: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.fields-orientation {
+    display: flex;
+    column-gap: 15px;
+}
+
+.label-text-combo {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.label-text-combo h4 {
+    font-size: 18px;
+    font-weight: 400;
+    white-space: nowrap;
+    cursor: default;
+}
+
+.label-text-combo input[type=text],
+.label-text-combo input[type=email],
+.label-text-combo input[type=number],
+.label-text-combo textarea {
+    background: rgba(196, 196, 196, 0.6);
+    border-radius: 5px;
+    height: 35px;
+    border: none;
+    font-family: Poppins, sans-serif;
+    font-size: 1rem;
+    cursor: default;
+}
+
+
+.firstname, 
+.lastname,
+.email,
+.contactno {
+    width: calc(100%);
+}
+
+.firstname input[type=text],
+.lastname input[type=text],
+.email input[type=email],
+.contactno input[type=number] {
+    width: 100%;
+}
+
+.middleinitial input[type=text] {
+    width: 50px;
+}
+
+.age input[type=text] {
+    width: 60px;
+}
+
+.address input[type=text],
+.course input[type=text],
+.school input[type=text],
+.position input[type=text],
+.company input[type=text],
+.awardname input[type=text],
+.issuingorg input[type=text] {
+    /* width: 750px; */
+    width: 100%;
+}
+
+/* .email input[type=text] {
+    width: 310px;
+}
+
+.contactno input[type=text] {
+    width: 305px;
+} */
+
+.jobduration input[type=text] {
+    width: 220px;
+}
+
+.experiencedescription {
+    align-items: flex-start;
+}
+
+.experiencedescription textarea {
+    width: 100%;
+    height: 133px;
+    padding: 1rem;
+}
+
+.skills input[type=text] {
+    width: 420px;
+}
+
+.dateissued {
+    width: 270px;
+}
+
+
+
+.address h4 {
+    margin-right: 22px;
+}
+
+.email h4 {
+    margin-right: 46px;
+}
+
+.course h4 {
+    margin-right: 30px;
+}
+
+
+
+.fields-container-experience {
+    padding-left: 3rem;
+}
+
+.position h4 {
+    margin-right: 43px;
+}
+
+.company h4 {
+    margin-right: 5px;
+}
+
+.jobduration h4 {
+    margin-right: 39px;
+}
+
+.experiencedescription h4 {
+    margin-right: 52px;
+}
+
+
+
+
+.awardname h4 {
+    margin-right: 40px;
+}
+
+.issuingorg h4,
+.dateissued h4,
+.expdate h4 {
+    margin-right: 20px;
+}
+
+/* .expdate {
+    transform: translateX(8rem);
+} */
+
+.needsspacebetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media screen and (max-width: 1500px) {
+    
+    main {
+        /* flex-direction: column;
+        align-items: center; */
+    }
+
+    header .links-container {
+        /* transform: translateX(-2rem); */
+        margin-right: 4rem;
+    }
+
+    .sideboxes-container {
+        margin-bottom: 1rem;
+        /* justify-content: center; */
+    }
+
+    .main-box {
+        width: 70vw;
+    }
+
+    .fields-container {
+        margin-top: 1rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+
+    main {
+        /* flex-direction: column;
+        align-items: center; */
+        /* flex-wrap: wrap; */
+    }
+
+    .intro-header {
+        height: 300px;
+        position: relative;
+    }
+
+    .intro-header h2 {
+        /* transform: translate(0, -2rem); */
+        transform: translate(0, 3.5rem);
+    }
+
+    .intro-header-name-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* transform: translate(0, -2.8rem); */
+        transform: translate(0, 3rem);
+    }
+
+    .profilepic-container img {
+        width: 220px;
+        height: 220px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        /* left: 7.5rem;
+        bottom: -6rem; */
+        left: 0;
+        bottom: -4rem;
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    
+    .about-container p, .about-container ul {
+        transform: translate(0 , 5rem);
+        text-align: center;
+    }
+    
+    .about-container p {
+        width: 80%;
+        text-align: justify;
+        text-indent: 2rem;
+        font-size: 14px;
+        margin: 2rem 0rem 0 0;
+        cursor: default;
+    }
+    
+    .about-container ul {
+        list-style: none;
+        display: flex;
+        column-gap: 3rem;
+    }
+    
+    .about-container ul li a i {
+        font-size: 1.6rem;
+        margin-top: 1.5rem;
+        color: #000;
+        transform: translateX(0rem);
+    }
+
+    .jobduration-orientation {
+        flex-wrap: wrap;
+    }
+
+    .jobduration input[type=text] {
+        width: 100%;
+    }
+
+    .fields-orientation {
+        flex-direction: column;
+        row-gap: 16px;
+    }
+
+    .middleinitial input[type=text] {
+        transform: translateX(4.2rem);
+    }
+
+    .age input[type=text] {
+        transform: translateX(3.7rem);
+    }
+
+    .jobduration-orientation {
+        flex-direction: row;
+    }
+
+    .experiencedescription {
+        flex-direction: column;
+    }
+
+    .firstname, .lastname, .address, .email, .contactno, .course, .school, .position, .company, .awardname, .issuingorg, .dateissued,
+    .expdate {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .label-text-combo {
+        /* column-gap: 0;
+        align-items: flex-start;
+        justify-content: flex-start; */
+    }
+
+    .middleinitial input[type=text] {
+        width: 80px;
+        transform: translateX(1rem);
+    }
+
+    .age input[type=text] {
+        width: 80px;
+        transform: translateX(0.6rem);
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    /* for removing the sliding panel when resized above 1050px width */
+
+    header #panel {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1050px) {
+    
+    header {
+        justify-content: space-between;
+    }
+
+    header .logo-container {
+        width: 1000px;
+    }
+
+    header .logo-container h1 {
+        white-space: nowrap;
+    }
+
+    header .links-container {
+        width: 40%;
+        display: none;
+    }
+
+    header .menu-circle-container {
+        margin-left: 0;
+    }
+
+    header .menu-circle-container #menuButton {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+        /* flex-wrap: wrap; */
+    }
+
+    .main-box {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    /* optimized for mobile devices */
+
+    header {
+        padding: 10px 10px;
+    }
+
+    header .logo-container {
+        width: 50%;
+    }
+
+    header .logo-container img {
+        width: 60px;
+    }
+
+    header .logo-container h1 br {
+        display: block;
+    }
+
+    header .logo-container h1 {
+        font-size: 1.2rem;
+    }
+
+    .main-header a {
+        font-size: 14px;
+        padding: 8px 25px;
+    }
+
+
+    header .menu-circle-container .circle {
+        width: 40px;
+        height: 40px;
+        background-color: #3b3b3b;
+        border-radius: 50%;
+        z-index: 10;
+        margin-right: 20px;
+        position: relative;
+    }
+    
+    header .menu-circle-container .circle a img {
+        width: 40px;
+        height: 40px;
+        background-color: #3b3b3b;
+        border-radius: 50%;
+        z-index: 10;
+    }
+
+
+    .sideboxes-container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.4rem;
+        margin: 0 0 1rem 0;
+    }
+
+    .sidebox-one {
+        width: 350px;
+    }
+
+    .intro-header {
+        height: 260px;
+    }
+
+    .intro-header-name-container {
+        transform: translate(0, -2.4rem);
+    }
+
+    .intro-header h2 {
+        transform: translate(0, -2rem);
+        font-size: 1.3rem;
+    }
+
+    .intro-header-name-container h1 {
+        font-size: 2.1rem;
+        /* color: cyan; */
+    }
+
+    .intro-header-name-container p {
+        font-size: 14px;
+    }
+
+    .profilepic-container img {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 4.5rem;
+        bottom: -6rem;
+    }
+
+    .main-box-content-wrapper {
+        padding: 2rem 1rem;
+    }
+
+    .dateissued {
+        width: 100%;
+    }
+
+    .dateissued input[type=text] {
+        width: 100%;
+    }
+
+    .expdate {
+        width: 100%;
+    }
+
+    .expdate input[type=text] {
+        width: 100%;
+    }
+}
+

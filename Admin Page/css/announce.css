@@ -1,0 +1,120 @@
+.content{
+    position: absolute;
+    width: 1100px;
+    height: 1500px;
+    left: 240px;
+    top: 75px;
+    background: whitesmoke;
+	-webkit-border-radius:10px;
+	border:none;
+	box-sizing:border-box;
+}
+.content h3{
+    text-align: center;
+}
+.content .board {
+    position: relative;
+    width: 1065px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #E5E5E5;
+}
+.content .board span{
+    margin-left: 40px;
+} 
+.content .preview{
+    position: relative;
+    width: 1065px;
+    height: 300px;
+    margin: 20px;
+}
+.content .duration{
+    position: relative;
+    width: 1065px;
+    height: 100px;
+    margin: 20px;
+}
+
+.content .preview .pre{
+    position: absolute;
+    top:0px;
+    left: 410px;
+    width: 650px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #E5E5E5;
+}
+.content .preview .label1 span{
+    position: absolute;
+    top:300px;
+    left: 410px;
+    width:650px;
+    text-align: center;
+
+}
+.content .preview .btn_upload{
+    cursor: pointer;
+	border:none;
+	background: #800;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 31.5px;
+    margin-top: 10px;
+    margin-left: 70px;
+    height: 35px;
+    width: 250px;
+    font-family: Poppins;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+.content .preview .btn1 .data{
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
+    text-align: center;
+}
+.content .duration input[type="time"]{
+    
+    
+    padding:5px 3px;
+	box-sizing:border-box;
+	width:150px;
+	outline:none;
+	transition:all 0.2s ease;
+	border:none;
+	-webkit-border-radius: 5px;
+	background: whitesmoke;
+	font-family: Poppins;
+    background-color:#E5E5E5 ;
+}
+.content .duration .inner-duration{
+    display: flex;
+    float: inline-start;
+}
+.content .duration .inner-duration {
+    margin-left: 70px;
+}
+.content .duration .from,
+.content .duration .to{
+    margin-left: 20px;
+}
+.content .btn_post{
+    cursor: pointer;
+	border:none;
+	background: #800;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 31.5px;
+    height: 35px;
+    width: 250px;
+    font-family: Poppins;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 400px;
+    color: white;
+}
+.content .duration span{
+    font-size: 15px;
+    margin-left: 50px;
+
+}

@@ -1,0 +1,155 @@
+.coprofile{
+    position: absolute;
+    width: 1100px;
+    height: 2500px;
+    left: 240px;
+    top: 75px;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 5px;
+	-webkit-border-radius:10px;
+	border:none;
+	background:#E5E5E5;
+	box-sizing:border-box;
+}
+.coprofile #rectangle{
+    position: absolute;
+    width: 100%;
+    height: 189px;
+    background: rgba(196, 196, 196, 0.6);
+    border-radius: 10px;
+}
+.coprofile .coname{
+    position: absolute;
+    font-family: Poppins;
+    font-weight: bold;
+    margin-top: 113px;
+    margin-left: 550px;
+}
+.coprofile img{
+    position: absolute;
+    margin-top: 48px;
+    margin-right: 134px;
+    width: 250px;
+    height: 250px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 130px;
+	margin-left:100px;
+}
+.coprofile .about{
+    position:absolute;
+	top:125px;
+	text-align:justify;
+	margin-left:400px;
+	margin-top:50px;
+}
+.coprofile ul{
+    position:absolute;
+    list-style: none;
+    margin-left: 585px;
+    margin-top: 300px;
+}
+.coprofile ul li{
+    float: left;
+    padding:10px;
+}
+.coprofile ul li i{
+    font-size: 25px;
+}
+.content-info{
+    position: relative;
+    margin-top: 400px;
+    margin-left: 135px;
+}
+
+.info{
+    margin-left: 70px;
+}
+.innerform input[type="text"],
+.innerform textarea{
+	padding:5px 3px;
+	box-sizing:border-box;
+	width:700px;
+    height: 40px;
+	outline:none;
+	transition:all 0.2s ease;
+	border:none;
+	border-radius: 5px;
+	background: rgba(196, 196, 196, 0.6);
+	font-family: Poppins;
+	margin-left: 5px;
+    margin-bottom: 5px;
+}
+.innerform textarea{
+	padding:5px 3px;
+	box-sizing:border-box;
+	width:700px;
+    height: 150px;
+	outline:none;
+	transition:all 0.2s ease;
+	border:none;
+	border-radius: 5px;
+	background: rgba(196, 196, 196, 0.6);
+	font-family: Poppins;
+	margin-left: 5px;
+}
+.fields-orientation input[type="email"],
+.fields-orientation input[type="number"]{
+	box-sizing:border-box;
+	outline:none;
+	transition:all 0.2s ease;
+	border:none;
+	border-radius: 5px;
+	background: rgba(196, 196, 196, 0.6);
+	font-family: Poppins;
+    padding:5px 3px;
+    width: 250px;
+    height: 40px;
+}
+
+.fields-orientation{
+    position:relative;
+    height: auto;
+    width: auto;
+    margin-bottom: 20px;
+}
+.fields-orientation .mail{
+    margin-top: 5px;
+}
+.fields-orientation .phone {
+    position: absolute;
+    top:0%;
+    margin-left: 300px;
+}
+.innerform .label{
+    margin:5px;
+}
+.content-info .title1{
+    margin-left: 5px;
+}
+.info h3{
+    margin-left: 20px;
+}
+.coprofile .jobposting{
+    position: relative;
+    margin-left: 15px;
+    width: 950px;
+    height: 310px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+
+}
+.jobposting .job{
+    position: relative;
+    top: 10px;
+    width: 225px;
+    height: 280px;
+    border-radius: 20px;
+    background-color:  rgba(196, 196, 196, 0.6);;
+    float: left;
+    margin: 6px;
+    
+}
+.jobposting .job span{
+    margin-left: 70px;
+}
