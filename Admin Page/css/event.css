@@ -98,7 +98,7 @@ form{
 	background: whitesmoke;
 	font-family: Poppins;
 }
-.btn_upload{
+.content .btn_upload{
     cursor: pointer;
 	border:none;
 	background: #800;
@@ -114,6 +114,12 @@ form{
     color: white;
     margin-bottom: 10px;
 }
+.content .btn_upload:hover,
+#create:hover{
+    background:rgb(134, 125, 125);
+    color:black;
+}
+
 .content .inner-content .file  .data{
     height: 0px;
     width: 0px;

@@ -103,17 +103,18 @@
 	background: rgba(196, 196, 196, 0.6);
 	font-family: Poppins;
     padding:5px 3px;
-    width: 250px;
+    width: 200px;
     height: 40px;
 }
 
 .fields-orientation{
     position:relative;
     height: auto;
-    width: auto;
+    width: 1000px;
     margin-bottom: 20px;
 }
 .fields-orientation .mail{
+    position: relative;
     margin-top: 5px;
 }
 .fields-orientation .phone {
@@ -139,7 +140,7 @@
     background-color: whitesmoke;
 
 }
-.jobposting .job{
+.jobposting .job{ 
     position: relative;
     top: 10px;
     width: 225px;

@@ -118,3 +118,8 @@
     margin-left: 50px;
 
 }
+.content .btn_upload:hover,
+.content .btn_post:hover{
+    background:rgb(134, 125, 125);
+    color:black;
+}
