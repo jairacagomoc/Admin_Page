@@ -1,10 +1,10 @@
 .content{
     position: absolute;
-    width: 1100px;
+    width: 87%;
     height: 1000px;
     left: 240px;
     top: 75px;
-    background:whitesmoke;
+    background: whitesmoke;
 	-webkit-border-radius:10px;
 	border:none;
 	box-sizing:border-box;
@@ -107,4 +107,212 @@
     font-weight: bold;
     font-size: 15px;
     text-align: center;
+}
+
+@media screen and (max-width: 1350px) {
+    .content{
+        width: 81%;
+    }
+
+    .content .inner-main {
+        width: 610px;
+    }
+
+    .content .inner-main .box1,
+    .content .inner-main .box2,
+    .content .inner-main .box3,
+    .content .inner-main .box4{
+        width: 290px;
+        height: 290px;
+    }
+
+    .content .inner-main .box2,
+    .content .inner-main .box4{
+        left: 300px;
+    }
+
+    .content .inner-main .box4 {
+        top: 320px;
+    }
+
+    .content .inner-main .box5 {
+        width: 590px;
+    }
+
+    .content .main-side{
+        left: 620px;
+    }
+
+    .content  .main-side .inner-event{
+        width: 250px;
+        font-size: 14px;
+    }
+
+    .content .main-side .inner-notif{
+        width: 250px;
+        font-size: 14px;
+    }
+
+    .content .main-side .inner-event input[type="text"]{
+        width:60px;
+        height: 30px;
+    }
+}
+
+
+@media screen and (max-width: 1113px) {
+    .content{
+        width: 90%;
+        left: 100px;
+    }
+
+    .content .inner-main {
+        width: 470px;
+    }
+
+    .content .inner-main .box1,
+    .content .inner-main .box2,
+    .content .inner-main .box3,
+    .content .inner-main .box4{
+        width: 220px;
+        height: 220px;
+    }
+
+    .content .inner-main .box2,
+    .content .inner-main .box4{
+        left: 230px;
+    }
+
+    .content .inner-main .box4 {
+        top: 250px;
+    }
+
+    .content .inner-main .box5 {
+        width: 450px;
+        height: 200px;
+    }
+
+    .content .main-side{
+        left: 480px;
+    }
+
+    .content  .main-side .inner-event{
+        width: 220px;
+        font-size: 14px;
+    }
+
+    .content .main-side .inner-notif{
+        width: 220px;
+        font-size: 14px;
+    }
+
+    .content .main-side .inner-event input[type="text"]{
+        width:60px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .content{
+        width: 86%;
+    }
+
+    .content .inner-main {
+        width: 290px;
+    }
+
+    .content .inner-main .box1,
+    .content .inner-main .box2,
+    .content .inner-main .box3,
+    .content .inner-main .box4{
+        width: 130px;
+        height: 160px;
+    }
+
+    .content .inner-main .box2,
+    .content .inner-main .box4{
+        left: 140px;
+    }
+
+    .content .inner-main .box4 {
+        top: 190px;
+    }
+
+    .content .inner-main .box5 {
+        width: 270px;
+        height: 150px;
+    }
+
+    .content .main-side{
+        left: 300px;
+    }
+
+    .content  .main-side .inner-event{
+        width: 150px;
+        font-size: 12px;
+    }
+
+    .content .main-side .inner-notif{
+        width: 150px;
+        font-size: 12px;
+    }
+
+    .content .main-side .inner-event input[type="text"]{
+        width:40px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .content{
+        width: 78%;
+        left: 70px;
+    }
+
+    .content .inner-main {
+        width: 230px;
+    }
+
+    .content .inner-main .box1,
+    .content .inner-main .box2,
+    .content .inner-main .box3,
+    .content .inner-main .box4{
+        width: 100px;
+        height: 100px;
+    }
+
+    .content .inner-main .box2,
+    .content .inner-main .box4{
+        left: 110px;
+    }
+
+    .content .inner-main .box4 {
+        top: 130px;
+    }
+
+    .content .inner-main .box5 {
+        width: 210px;
+        height: 100px;
+    }
+
+    .content .main-side{
+        left: 10px;
+        top: 420px;
+    }
+
+    .content  .main-side .inner-event{
+        width: 220px;
+        font-size: 12px;
+    }
+
+    .content .main-side .inner-notif{
+        width: 220px;
+        font-size: 12px;
+        top: -20px;
+    }
+
+    .content .main-side .inner-event input[type="text"]{
+        width:40px;
+        height: 20px;
+    }
 }
