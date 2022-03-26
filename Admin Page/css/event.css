@@ -1,13 +1,13 @@
 .content{
     position: absolute;
-    width: 1100px;
-    height: 1500px;
-    left: 240px;
-    top: 75px;
-    background: #E5E5E5;
-	-webkit-border-radius:10px;
-	border:none;
-	box-sizing:border-box;
+    top:0%;
+    margin-top:4.6%; 
+    left: 11.5%;
+    width: 88.5%;
+    height: 95%;
+	border-radius:10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
 }
 .title{
     position:relative;
@@ -19,17 +19,20 @@
     font-weight: bold;
 }
 .content .inner-main{
-    position: absolute;
-    width: 785px;
-    height: 1500px;
-    background: rgba(196, 196, 196, 0.5);
+    position: relative;
+    width: 75%;
+    height: 90%;
+    margin: .5%;
     border-radius: 10px;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 1;
 }
 .content .inner-event{
     position: absolute;
-    left: 800px;
-    width: 300px;
-    height: auto;
+    left: 76%;
+    top:0.9%;
+    width: 23%;
+    height: 65%;
     background: rgba(196, 196, 196, 0.5);
     border-radius: 10px;
     padding-bottom: 20px;
@@ -42,7 +45,7 @@
 	border-radius: 31.5px;
     color:white;
     margin-top: 10px;
-    margin-left: 70px;
+    margin-left: 30%;
     height: 35px;
     width: 150px;
     font-family: Poppins;
@@ -61,7 +64,7 @@ form{
     margin-bottom: 10px;
     padding:5px 3px;
 	box-sizing:border-box;
-	width:260px;
+	width:85%;
 	outline:none;
 	transition:all 0.2s ease;
 	border:none;
@@ -76,7 +79,7 @@ form{
     margin-left: 23px;
     padding:5px 3px;
 	box-sizing:border-box;
-	width:260px;
+	width:85%;
     height: 200px;
 	outline:none;
 	transition:all 0.2s ease;
@@ -90,7 +93,7 @@ form{
     margin-left: 60px;
     padding:5px 3px;
 	box-sizing:border-box;
-	width:150px;
+	width:50%;
 	outline:none;
 	transition:all 0.2s ease;
 	border:none;
@@ -105,7 +108,7 @@ form{
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
 	border-radius: 31.5px;
     margin-top: 10px;
-    margin-left: 5px;
+    margin-left: 12%;
     height: 35px;
     width: 250px;
     font-family: Poppins;

@@ -1,16 +1,16 @@
 .coprofile{
     position: absolute;
-    width: 1100px;
+    top:0%;
+    margin-top:4.6%; 
+    left: 11.5%;
+    width: 88.5%;
     height: 2500px;
-    left: 240px;
-    top: 75px;
-    background: rgba(196, 196, 196, 0.5);
-    border-radius: 5px;
-	-webkit-border-radius:10px;
-	border:none;
+	border-radius:10px;
+    padding-bottom: 20px;
 	background:#E5E5E5;
 	box-sizing:border-box;
 }
+
 .coprofile #rectangle{
     position: absolute;
     width: 100%;
@@ -23,24 +23,22 @@
     font-family: Poppins;
     font-weight: bold;
     margin-top: 113px;
-    margin-left: 550px;
+    margin-left: 50%;
 }
 .coprofile img{
     position: absolute;
     margin-top: 48px;
     margin-right: 134px;
-    width: 250px;
-    height: 250px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    border-radius: 130px;
-	margin-left:100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+	margin-left:15%;
 }
 .coprofile .about{
     position:absolute;
 	top:125px;
 	text-align:justify;
-	margin-left:400px;
+	margin-left:37%;
 	margin-top:50px;
 }
 .coprofile ul{
@@ -59,9 +57,10 @@
 
 .main-box-content-wrapper {
     position: absolute;
-    top:380px;
+    top:15%;
+    width: 70%;
     padding: 2rem 3rem;
-    margin-left: 7%;
+    margin-left:12%;
 }
 
 h3 {
@@ -116,7 +115,7 @@ h3 {
 .lastname,
 .email,
 .contactno {
-    width: calc(100%);
+    width: (100%);
 }
 
 .firstname input[type=text],
