@@ -1,13 +1,13 @@
 .content{
     position: absolute;
-    width: 1100px;
-    height: 1500px;
-    left: 240px;
-    top: 75px;
-    background: #E5E5E5;
-	-webkit-border-radius:10px;
-	border:none;
-	box-sizing:border-box;
+    top:0%;
+    margin-top:4.6%; 
+    left: 11.5%;
+    width: 88.5%;
+    height: 95%;
+	border-radius:10px;
+    padding-bottom: 20px;
+    background-color: whitesmoke;
 }
 .title{
     position:relative;
@@ -19,7 +19,7 @@
     font-weight: bold;
 }
 .search-container{
-    margin-left: 38%;
+    margin-left: 42%;
     margin-top: 20px;
 }
 form{
