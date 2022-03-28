@@ -1,12 +1,10 @@
 .content{
     position: absolute;
-    top:0%;
-    margin-top:4.6%; 
-    left: 11.5%;
-    width: 88.5%;
-    height: 95%;
+    top:80px;
+    left: 220px;
+    width:1680px;
+    height: auto;
 	border-radius:10px;
-    padding-bottom: 20px;
 }
 .title{ 
     position:relative;
@@ -17,6 +15,11 @@
     padding: 10px;
     font-weight: bold;
 }
+.content .inner-main{
+    margin-left:5px;
+    width: 1260px;
+    padding-top: 5px;
+}
 
 .content .inner-main .box1,
 .content .inner-main .box2,
@@ -26,52 +29,50 @@
     margin: 5px;
     background:rgba(196, 196, 196, 0.6);
     border-radius: 10px;
-    padding-bottom: 20px;
-    margin-top: 10px;
-    margin-left: 10px;
 }
 .content .inner-main .box1,
 .content .inner-main .box3{
     position: relative;
-    width: 37%;
+    width: 625px;
     height: 300px;
 }
 .content .inner-main .box2{
-    position:absolute;
-    top: 0px;
-    left:37.5%;
-    width: 37%;
+    position: absolute;
+    top:5px;
+    left:640px;
+    width: 630px;
     height: 300px;
+   
 }
 .content .inner-main .box4{
-    position:absolute;
-    top: 330px;
-    left: 37.5%;
-    width: 37%;
+    position: absolute;
+    top:310px;
+    left:640px;
+    width: 630px;
     height: 300px;
 }
 .content .inner-main .box5{
     position: relative;
-    width: 75%;
-    height: 350px;
+    width: 1260px;
+    height: 400px;
 }
 .content .main-side{
     position: absolute;
-    left: 76%;
-    top:0.9%;
-    width: 23%;
+    left: 1285px;
+    top:10px;
+    width: 385px;
 }
 .content  .main-side .inner-event{
-    width: 100%;
+    width: 385px;
     height: auto;
     background: rgba(196, 196, 196, 0.5);
     border-radius: 15px;
     padding-bottom: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .content .main-side .inner-notif{
     position: relative;
-    width: 100%;
+    width: 385px;
     height: 200px;
     background: rgba(196, 196, 196, 0.199);
     border-radius: 15px;
@@ -99,4 +100,49 @@
     font-weight: bold;
     font-size: 15px;
     text-align: center;
+}
+
+@media screen and (max-width: 1850px) {
+    .body{
+        width: 95%;
+        height: 95%;
+    }
+    .content{
+        width: 88%;
+    }
+    .content .inner-main{
+        width: 75%;
+    }
+    .content .inner-main .box1,
+    .content .inner-main .box3{
+     position: relative;
+     width: 50%;
+    height: 300px;
+}
+.content .inner-main .box2{
+    position: absolute;
+    top:5px;
+    left:38%;
+    width:37.5%;
+    height: 300px;
+   
+}
+.content .inner-main .box4{
+    position: absolute;
+    top:310px;
+    left:38%;
+    width:37.5%;
+    height: 300px;
+}
+.content .inner-main .box5{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+.content .main-side{
+    position: absolute;
+    left:76.5%;
+    top:10px;
+    width:21%;
+}
 }

@@ -1,39 +1,35 @@
 .content{
     position: absolute;
-    top:0%;
-    margin-top:4.6%; 
-    left: 11.5%;
-    width: 88.5%;
-    height: 95%;
+    top:80px;
+    left: 220px;
+    width:1680px;
+    height: 1000px;
 	border-radius:10px;
-    padding-bottom: 20px;
     background-color: whitesmoke;
+    padding-bottom: 30px;
 }
 .content h3{
     text-align: center;
 }
 .content .board {
     position: relative;
-    width: 98%;
-    height: 35%;
-    margin: 1%;
+    left:25px;
+    width: 1620px;
+    height: 300px;
+    margin: 5px;
     border-radius: 20px;
     background-color: #E5E5E5;
 }
 .content .board span{
-    margin-left: 5%;
+    margin-left: 50px;
 } 
 .content .preview{
     position: relative;
-    width: 98%;
-    height: 35%;
-    margin: 1%;
-}
-.content .duration{
-    position: relative;
-    width: 98%;
-    height: 15%;
-    margin: 1%;
+    left:80px;
+    width: 1500px;
+    height: 300px;
+    margin: 5px;
+
 }
 
 .content .preview .pre{
@@ -73,6 +69,9 @@
     width: 0px;
     overflow: hidden;
     text-align: center;
+}
+.content .duration{
+    padding-bottom: 20px;
 }
 .content .duration input[type="time"]{
     

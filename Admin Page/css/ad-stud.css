@@ -1,14 +1,12 @@
 .coprofile{
     position: absolute;
-    top:0%;
-    margin-top:4.6%; 
-    left: 11.5%;
-    width: 88.5%;
+    top:80px;
+    left: 220px;
+    width:1680px;
     height: 2500px;
 	border-radius:10px;
-    padding-bottom: 20px;
-	background:#E5E5E5;
-	box-sizing:border-box;
+    background-color: whitesmoke;
+    padding-bottom: 30px;
 }
 
 .coprofile #rectangle{
@@ -23,7 +21,7 @@
     font-family: Poppins;
     font-weight: bold;
     margin-top: 113px;
-    margin-left: 50%;
+    margin-left: 800px;
 }
 .coprofile img{
     position: absolute;
@@ -32,19 +30,19 @@
     width: 300px;
     height: 300px;
     border-radius: 150px;
-	margin-left:15%;
+	margin-left:250px;
 }
 .coprofile .about{
     position:absolute;
 	top:125px;
 	text-align:justify;
-	margin-left:37%;
+	margin-left:600px;
 	margin-top:50px;
 }
 .coprofile ul{
     position:absolute;
     list-style: none;
-    margin-left: 585px;
+    margin-left: 745px;
     margin-top: 300px;
 }
 .coprofile ul li{
@@ -57,10 +55,10 @@
 
 .main-box-content-wrapper {
     position: absolute;
-    top:15%;
-    width: 70%;
+    top:350px;
+    width: 1200px;
     padding: 2rem 3rem;
-    margin-left:12%;
+    margin-left:200px;
 }
 
 h3 {
