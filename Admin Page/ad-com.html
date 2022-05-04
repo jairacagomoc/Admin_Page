@@ -20,7 +20,7 @@
     <!-- Styles -->
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap" rel="stylesheet">
 	<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/topside.css">
     <link rel="stylesheet" href="css/customScroll.css">
     <link rel="stylesheet" href="css/ad-com.css">
 
@@ -32,119 +32,115 @@
 </head>
 <body>
 
-    <!-- NAVBAR -->
-    <div id="magnet"></div>
+   <!-------TOPBAR------->
+   <div class = "topbar">
+    <div class="logo-container">
+        <img src="https://www.pngkey.com/png/detail/52-528919_the-pup-logo-polytechnic-university-of-the-philippines.png" alt="">
+        <h1>PUP<br> JobFair Portal</h1>
+        <div class = "topright">
+        <ul>
+            <li><button>Announcements</button></li>
+            <li><i class = 'bx bx-bell icon'></i></li>
+            <li><i class = 'bx bx-power-off icon'></i></li>
+        </ul>
+        </div>
+    </div>
+
+
+<!------SIDEBAR------>
+<nav class="sidebar close">
     <header>
-        <div class="logo-container">
-            <img src="https://www.pngkey.com/png/detail/52-528919_the-pup-logo-polytechnic-university-of-the-philippines.png" alt="">
-            <h1>PUP<br> JobFair Portal</h1>
-        </div>
-        <div class="links-container">
-            <ul>
-                <li><a href="">Create Job Posting <i class='bx bx-edit'></i></a></li>
-                <li><p class="notifications" id="notifications-button">Notifications<i class='bx bxs-bell' ></i></p></li>
-            </ul>
-        </div>
-        <div class="dropdown">
-            <img src="https://www.pngitem.com/pimgs/m/150-1503945_transparent-user-png-default-user-image-png-png.png" class="img img-fluid logo ">
-            <i class='bx bxs-down-arrow'></i>
-            <div class="dropdown-content">
-            <a href="#">Create Job Posting</a>
-            <a href="#">Notifications</a>
-            <a href="#">Logout</a>
-            </div>
-          </div>
-        <div class="notifs-panel" id="notifications-panel">
-            <div class="notif-container">
-                <h5>Lorem Ipsum</h5>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ad magnam tempore dolor. Porro ad magnam tempore dolor.</p>
-            </div>
-            <div class="notif-container">
-                <h5>Lorem Ipsum</h5>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ad magnam tempore dolor. Porro ad magnam tempore dolor.</p>
-            </div>
-            <a href="#" target="_blank"><p>Open all notifications...</p></a>
-        </div>
+        <i class='bx bx-chevron-right toggle'></i>
     </header>
 
+    <div class="menu-bar">
+        <div class="menu">
+            <li class="search-box">
+                </li>
 
-<!-----sidebar----->
-<div class="container-fluid " >
-    <div class="row">
-      <div class="">
-        <div class="sidebar">
-
-            <div class="menu">
-                <i class='bx bx-menu' id="btn"></i>
+            <div class="pic">
+                <img src = "img/pic.jpg">
             </div>
-    
-            <ul class="nav-list">
-                
-                <li>
+
+            <ul class="menu-links">
+                <li class="nav-link">
                     <a href="dshbrd_A.html">
-                        <img src="img/dashboard-svgrepo-com.svg">
-                        <span class="links_name"> Dashboard </span>
+                        <i class='bx bx-bar-chart-alt-2 icon' ></i>
+                        <span class="text nav-text">Dashboard</span>
                     </a>
-                    <span class="tooltip">Dashboard</span>
                 </li>
-                <li>
+                <li class="nav-link">
                     <a href="announce.html">
-                        <img src="img/message-alert-svgrepo-com.svg">
-                        <span class="links_name"> Announcement</span>
+                        <i class='bx bx-message-alt-edit icon' ></i>
+                        <span class="text nav-text">Announcement</span>
                     </a>
-                    <span class="tooltip">Announcement</span>
                 </li>
-                <li>
+
+                <li class="nav-link">
                     <a href="event.html">
-                        <img src="img/event.svg.svg">
-                        <span class="links_name">Events</span>
+                        <i class='bx bx-network-chart icon' ></i>
+                        <span class="text nav-text">Events</span>
                     </a>
-                    <span class="tooltip">Events</span>
                 </li>
-                <li>
+
+                <li class="nav-link">
                     <a href="notif.html">
-                        <img src="img/notifications.svg.svg">
-                        <span class="links_name">Notifications</span>
+                        <i class='bx bx-bell icon'></i>
+                        <span class="text nav-text">Notifications</span>
                     </a>
-                    <span class="tooltip">Notifications</span>
                 </li>
-                <li>
+
+                <li class="nav-link">
                     <a href="ad-stud.html">
-                        <img src="img/user-profile.svg.svg">
-                        <span class="links_name">Student&nbsp;Profile</span>
+                        <i class='bx bx-user-circle icon' ></i>
+                        <span class="text nav-text">Student Profile</span>
                     </a>
-                    <span class="tooltip">Student&nbsp;Profile</span>
                 </li>
-                <li>
+
+                <li class="nav-link">
                     <a href="ad-com.html">
-                        <img src="img/com.svg.svg">
-                        <span  class="links_name">Company&nbsp;Profile</span>
+                        <i class='bx bx-briefcase icon' ></i>
+                        <span class="text nav-text">Company Profile</span>
                     </a>
-                    <span class="tooltip">Company&nbsp;Profile</span>
                 </li>
-                <li>
+
+                <li class="nav-link">
                     <a href="security.html">
-                        <img src="img/hardware-security.svg.svg">
-                        <span class="links_name">Password&nbsp;&&nbsp;Security</span>
+                        <i class='bx bx-key icon'></i>
+                        <span class="text nav-text">Password & Security</span>
                     </a>
-                    <span class="tooltip">Password&nbsp;&&nbsp;Security</span>
                 </li>
-    
-                <li style="position: absolute;top:94.5%; display: flex;" >
-                    <a href="off.html">
-                        <img src="img/log-out.svg.svg">
-                        <span class="links_name">Log&nbsp;Out</span>
-                    </a>
-                    <span class="tooltip">Log&nbsp;Out</span>
-                </li>
+
+
             </ul>
-    
         </div>
-    
-      </div>
+
+        <div class="bottom-content">
+            <li class="">
+                <a href="settings.html">
+                    <i class='bx bx-cog icon' ></i>
+                    <span class="text nav-text">Settings</span>
+                </a>
+            </li>
+
+            <li class="mode">
+                <div class="sun-moon">
+                    <i class='bx bx-moon icon moon'></i>
+                    <i class='bx bx-sun icon sun'></i>
+                </div>
+                <span class="mode-text text">Dark mode</span>
+
+                <div class="toggle-switch">
+                    <span class="switch"></span>
+                </div>
+            </li>
+            
+        </div>
     </div>
+
+</nav>
 </div>
-<!-----Sidebar(END)----->
+</nav>
  
 
 <!-----content----->
@@ -228,13 +224,8 @@
 </div>
 <!-----content(END)----->
 	
-<script>
-	let btn =document.querySelector("#btn");
-	let sidebar =document.querySelector(".sidebar");
 
-	btn.addEventListener("click" ,function(e){sidebar.classList.toggle("sidebar-active");});
-	
-</script>
+<script src="js/script.js"></script>
 
 </div>
 </body>
