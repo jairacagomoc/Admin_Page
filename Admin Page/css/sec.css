@@ -1,9 +1,9 @@
-.content{
+.Content{
     position: absolute;
-    top:80px;
-    left: 220px;
-    width:1680px;
-    height: 1000px;
+    top:100px;
+    left: 260px;
+    width:1500px;
+    height: 1450px;
 	border-radius:10px;
     background-color: whitesmoke;
     padding-bottom: 30px;

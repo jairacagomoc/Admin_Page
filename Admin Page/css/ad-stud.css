@@ -1,12 +1,12 @@
 .coprofile{
     position: absolute;
-    top:80px;
-    left: 220px;
-    width:1680px;
-    height: 2500px;
+    top:100px;
+    left: 260px;
+    width:1500px;
+    height: 2000px;
 	border-radius:10px;
     background-color: whitesmoke;
-    padding-bottom: 30px;
+    padding-bottom: 300px;
 }
 
 .coprofile #rectangle{
@@ -21,7 +21,7 @@
     font-family: Poppins;
     font-weight: bold;
     margin-top: 113px;
-    margin-left: 800px;
+    margin-left: 750px;
 }
 .coprofile img{
     position: absolute;
@@ -30,13 +30,13 @@
     width: 300px;
     height: 300px;
     border-radius: 150px;
-	margin-left:250px;
+	margin-left:170px;
 }
 .coprofile .about{
     position:absolute;
-	top:125px;
+	top:135px;
 	text-align:justify;
-	margin-left:600px;
+	margin-left:550px;
 	margin-top:50px;
 }
 .coprofile ul{
@@ -58,7 +58,7 @@
     top:350px;
     width: 1200px;
     padding: 2rem 3rem;
-    margin-left:200px;
+    margin-left:160px;
 }
 
 h3 {

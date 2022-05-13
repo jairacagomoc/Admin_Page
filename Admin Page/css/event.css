@@ -1,9 +1,9 @@
 .content{
     position: absolute;
-    top:80px;
-    left: 220px;
-    width:1680px;
-    height: auto;
+    top:100px;
+    left: 260px;
+    width:1500px;
+    height: 1200px;
 	border-radius:10px;
     padding-bottom: 30px;
 }
@@ -18,7 +18,7 @@
 }
 .content .inner-main{
     position: relative;
-    width: 1210px;
+    width: 1000px;
     height: 1080px;
     margin: 5px;
     border-radius: 10px;
@@ -27,14 +27,16 @@
 }
 .content .inner-event{
     position: absolute;
-    left: 1210px;
+    left: 1025px;
     top:5px;
-    width: 455px;
-    height: 650px;
-    margin-left: 20px;
+    width: 460px;
+    height: 700px;
     background: rgba(196, 196, 196, 0.5);
     border-radius: 10px;
     padding-bottom: 20px;
+}
+.content .inner-content{
+    padding-left: 20px;
 }
 #create{
     cursor: pointer;

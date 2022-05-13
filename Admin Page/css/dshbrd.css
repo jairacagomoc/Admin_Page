@@ -1,10 +1,11 @@
 .content{
     position: absolute;
-    top:80px;
-    left: 220px;
-    width:1680px;
-    height: auto;
+    top:100px;
+    left: 260px;
+    width:1500px;
+    height: 1080px;
 	border-radius:10px;
+    padding-bottom: 30px;
 }
 .title{ 
     position:relative;
@@ -33,32 +34,32 @@
 .content .inner-main .box1,
 .content .inner-main .box3{
     position: relative;
-    width: 625px;
+    width: 530px;
     height: 300px;
 }
 .content .inner-main .box2{
     position: absolute;
     top:5px;
-    left:640px;
-    width: 630px;
+    left:540px;
+    width: 530px;
     height: 300px;
    
 }
 .content .inner-main .box4{
     position: absolute;
     top:310px;
-    left:640px;
-    width: 630px;
+    left:540px;
+    width: 530px;
     height: 300px;
 }
 .content .inner-main .box5{
     position: relative;
-    width: 1260px;
+    width: 1060px;
     height: 400px;
 }
 .content .main-side{
     position: absolute;
-    left: 1285px;
+    left: 1095px;
     top:10px;
     width: 385px;
 }

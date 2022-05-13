@@ -1,20 +1,20 @@
 .content{
     position: absolute;
-    top:80px;
-    left: 220px;
-    width:1680px;
-    height: 1000px;
+    top:100px;
+    left: 260px;
+    width:1500px;
+    height: 1080px;
 	border-radius:10px;
     background-color: whitesmoke;
     padding-bottom: 30px;
 }
-.content h3{
+.content h2{
     text-align: center;
 }
 .content .board {
     position: relative;
     left:25px;
-    width: 1620px;
+    width: 1440px;
     height: 300px;
     margin: 5px;
     border-radius: 20px;
@@ -25,7 +25,7 @@
 } 
 .content .preview{
     position: relative;
-    left:80px;
+    left:20px;
     width: 1500px;
     height: 300px;
     margin: 5px;
@@ -55,8 +55,8 @@
 	background: #800;
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
 	border-radius: 31.5px;
-    margin-top: 10px;
-    margin-left: 10%;
+    margin-top: 20px;
+    margin-left: 8%;
     height: 35px;
     width: 20%;
     font-family: Poppins;

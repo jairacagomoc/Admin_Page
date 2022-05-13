@@ -1,9 +1,9 @@
 .coprofile{
     position: absolute;
-    top:110px;
-    left: 220px;
+    top:100px;
+    left: 260px;
     width:1500px;
-    height: 1500px;
+    height: 1450px;
 	border-radius:10px;
     background-color: whitesmoke;
     padding-bottom: 30px;
@@ -20,7 +20,7 @@
     font-family: Poppins;
     font-weight: bold;
     margin-top: 133px;
-    margin-left: 800px;
+    margin-left: 750px;
 }
 .coprofile img{
     position: absolute;
@@ -29,15 +29,15 @@
     width: 300px;
     height: 300px;
     border-radius: 150px;
-	margin-left:250px;
+	margin-left:170px;
 }
 .coprofile .about{
     position:absolute;
 	top:145px;
 	text-align:justify;
-	margin-left:600px;
+	margin-left:550px;
 	margin-top:50px;
-    width: 800px;
+    width: 790px;
 }
 .coprofile ul{
     position:absolute;
@@ -56,7 +56,7 @@
 .content-info{
     position: relative;
     margin-top: 400px;
-    margin-left: 135px;
+    margin-left: 100px;
 }
 
 .info{
@@ -64,7 +64,7 @@
     top:0px;
     width: 1200px;
     padding: 2rem 3rem;
-    margin-left:200px;
+    margin-left:150px;
 }
 .innerform input[type="text"],
 .innerform textarea{
