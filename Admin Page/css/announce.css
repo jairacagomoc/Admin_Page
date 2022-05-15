@@ -122,3 +122,18 @@
     background:white;
     color:black;
 }
+
+@media screen and  (max-width: 1366px){
+    .content{
+        left: 100px;
+        width:1260px;
+        overflow: hidden;
+    }
+    .content .preview{
+        width: 1260px;
+    }
+    .content .board {
+        width: 1210px;
+    }
+}
+    
